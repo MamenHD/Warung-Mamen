@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Warung Nasi Mamen | Lezat dan Bergizi</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/mamen.jpg">
+    <link rel="icon" type="image/x-icon" href="assets/img/mamen.jpg" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,15 +27,15 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style.css" />
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar -->
     <header class="header">
       <nav class="nav container">
         <div class="nav__logo">
           <a href="/">Warung<span>Mamen</span>.</a>
         </div>
-        
+
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li><a href="#home" class="nav__link active-link">Home</a></li>
@@ -40,17 +43,17 @@
             <li><a href="#about" class="nav__link">Tentang Kami</a></li>
             <li><a href="#testimoni" class="nav__link">Testimoni</a></li>
           </ul>
-          
+
           <div class="nav__buttons">
             <a href="#" class="nav__button-link">Daftar</a>
             <a href="#" class="nav__button-link button">Masuk</a>
           </div>
-          
+
           <div class="nav__close" id="nav-close">
             <i class="ri-close-line"></i>
           </div>
         </div>
-        
+
         <div class="nav__toggle" id="nav-toggle">
           <i class="ri-menu-line"></i>
         </div>
@@ -63,18 +66,23 @@
         <div class="hero__content">
           <h1 class="hero__title">Nasi Lezat <span>Bergizi Tinggi</span></h1>
           <p class="hero__description">
-            Nikmati hidangan tradisional dengan cita rasa autentik yang dibuat dengan bahan-bahan pilihan dan penuh cinta.
+            Nikmati hidangan tradisional dengan cita rasa autentik yang dibuat
+            dengan bahan-bahan pilihan dan penuh cinta.
           </p>
           <div class="hero__buttons">
             <a href="#menu" class="button">Lihat Menu</a>
-            <a href="#" class="button button--transparent">
+            <a href="#" class="button button--transparent btn_hero">
               <i class="ri-play-circle-line"></i> Tonton Video
             </a>
           </div>
         </div>
-        
+
         <div class="hero__image">
-          <img src="assets/images/bgwn.jpg" alt="Nasi Mamen" class="hero__img">
+          <img
+            src="assets/images/bgwn.jpg"
+            alt="Nasi Mamen"
+            class="hero__img"
+          />
           <div class="hero__rating">
             <div class="hero__rating-stars">
               <i class="ri-star-fill"></i>
@@ -87,13 +95,19 @@
           </div>
         </div>
       </div>
-      
+
       <div class="hero__social">
-        <a href="#" class="hero__social-link"><i class="ri-facebook-fill"></i></a>
-        <a href="#" class="hero__social-link"><i class="ri-instagram-line"></i></a>
-        <a href="#" class="hero__social-link"><i class="ri-whatsapp-line"></i></a>
+        <a href="#" class="hero__social-link"
+          ><i class="ri-facebook-fill"></i
+        ></a>
+        <a href="#" class="hero__social-link"
+          ><i class="ri-instagram-line"></i
+        ></a>
+        <a href="#" class="hero__social-link"
+          ><i class="ri-whatsapp-line"></i
+        ></a>
       </div>
-      
+
       <div class="hero__scroll">
         <a href="#menu" class="hero__scroll-link">
           <i class="ri-arrow-down-s-line"></i>
@@ -102,6 +116,524 @@
       </div>
     </section>
 
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+      <div class="menu__container container">
+        <div class="menu__header">
+          <h2 class="section__title">Menu <span>Kami</span></h2>
+          <p class="section__description">
+            Nikmati berbagai pilihan menu lezat dengan bahan-bahan segar setiap
+            hari
+          </p>
+        </div>
+
+        <div class="menu__categories">
+          <button class="menu__category active" data-category="all">
+            Semua
+          </button>
+          <button class="menu__category" data-category="nasi">Nasi</button>
+          <button class="menu__category" data-category="minuman">
+            Minuman
+          </button>
+          <button class="menu__category" data-category="snack">Snack</button>
+        </div>
+
+        <div class="menu__grid">
+          <!-- Item 1 -->
+          <article class="menu__item" data-category="nasi">
+            <div class="menu__image">
+              <img
+                src="assets/images/nt.jpg"
+                alt="Nasi Goreng Spesial"
+                class="menu__img"
+              />
+              <div class="menu__badge">Terlaris</div>
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Nasi Ayam Geprek</h3>
+                <span class="menu__price">Rp 13.000</span>
+              </div>
+              <p class="menu__description">
+                Nasi + Ayam Geprek (Bebas Pilih) + Sambal Goreng
+              </p>
+            </div>
+          </article>
+
+          <!-- Item 2 -->
+          <article class="menu__item" data-category="nasi">
+            <div class="menu__image">
+              <img
+                src="assets/images/nt.jpg"
+                alt="Nasi Ayam Bakar"
+                class="menu__img"
+              />
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Ayam Geprek</h3>
+                <span class="menu__price">Rp 10.000</span>
+              </div>
+              <p class="menu__description">
+                Ayam Geprek (Bebas Pilih) + Sambal Goreng
+              </p>
+            </div>
+          </article>
+
+          <!-- Item 3 -->
+          <article class="menu__item" data-category="nasi">
+            <div class="menu__image">
+              <img
+                src="assets/images/nt.jpg"
+                alt="Nasi Campur"
+                class="menu__img"
+              />
+              <div class="menu__badge">Baru</div>
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Ayam Balado</h3>
+                <span class="menu__price">Rp 13.000</span>
+              </div>
+              <p class="menu__description">
+                Ayam (Bebas Pilih) + Sambal Goreng
+              </p>
+            </div>
+          </article>
+
+          <!-- Item 4 -->
+          <article class="menu__item" data-category="minuman">
+            <div class="menu__image">
+              <img
+                src="assets/images/nt.jpg"
+                alt="Es Teh Manis"
+                class="menu__img"
+              />
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Telor</h3>
+                <span class="menu__price">Rp 5.000</span>
+              </div>
+              <p class="menu__description">
+                Telor Goreng (Bebas Pilih Dadar atau Ceplok)
+              </p>
+            </div>
+          </article>
+
+          <!-- Item 5 -->
+          <article class="menu__item" data-category="minuman">
+            <div class="menu__image">
+              <img
+                src="assets/images/nt.jpg"
+                alt="Es Jeruk"
+                class="menu__img"
+              />
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Ati Ampela Kecap</h3>
+                <span class="menu__price">Rp 5.000</span>
+              </div>
+              <p class="menu__description">
+                Ati Ampela dengan bumbu kecap
+              </p>
+            </div>
+          </article>
+
+          <!-- Item 6 -->
+          <article class="menu__item" data-category="snack">
+            <div class="menu__image">
+              <img
+                src="assets/images/nt.jpg"
+                alt="Tempe Goreng"
+                class="menu__img"
+              />
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Tempe Orek</h3>
+                <span class="menu__price">Rp 3.000 - 5.000</span>
+              </div>
+              <p class="menu__description">
+                Tempe Orek (Bebas Pilih Kecap atau Balado)
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Item 7 -->
+          <article class="menu__item" data-category="snack">
+            <div class="menu__image">
+              <img
+                src="assets/images/nt.jpg"
+                alt="Tempe Goreng"
+                class="menu__img"
+              />
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Usus</h3>
+                <span class="menu__price">Rp 5.000</span>
+              </div>
+              <p class="menu__description">
+                Usus dengan bumbu kuah balado
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Item 8 -->
+          <article class="menu__item" data-category="snack">
+            <div class="menu__image">
+              <img
+                src="assets/images/nt.jpg"
+                alt="Tempe Goreng"
+                class="menu__img"
+              />
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Kikil</h3>
+                <span class="menu__price">Rp 5.000</span>
+              </div>
+              <p class="menu__description">
+                Kikil dengan kuah balado
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="menu__more">
+          <a href="#" class="button button--transparent">Lihat Semua Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="about__container container">
+        <div class="about__image">
+          <img
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            alt="Warung Mamen"
+            class="about__img"
+          />
+          <div class="about__experience">
+            <span class="about__experience-number">15+</span>
+            <span class="about__experience-text">Tahun<br />Pengalaman</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <h2 class="section__title">Cerita <span>Kami</span></h2>
+          <p class="about__description">
+            Warung Mamen didirikan pada tahun 2008 dengan misi menyajikan
+            makanan lezat dengan harga terjangkau. Kami menggunakan bahan-bahan
+            segar setiap hari dan resep turun temurun yang telah disempurnakan.
+          </p>
+
+          <div class="about__details">
+            <div class="about__detail">
+              <i class="ri-checkbox-circle-line"></i>
+              <p>Bahan-bahan segar setiap hari</p>
+            </div>
+            <div class="about__detail">
+              <i class="ri-checkbox-circle-line"></i>
+              <p>Resep turun temurun</p>
+            </div>
+            <div class="about__detail">
+              <i class="ri-checkbox-circle-line"></i>
+              <p>Harga terjangkau</p>
+            </div>
+            <div class="about__detail">
+              <i class="ri-checkbox-circle-line"></i>
+              <p>Pelayanan ramah</p>
+            </div>
+          </div>
+
+          <div class="about__stats">
+            <div class="about__stat">
+              <span class="about__stat-number">500+</span>
+              <span class="about__stat-text">Pelanggan<br />Per Hari</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number">50+</span>
+              <span class="about__stat-text">Menu<br />Variasi</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number">15+</span>
+              <span class="about__stat-text">Penghargaan<br />Kuliner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial section" id="testimoni">
+      <div class="testimonial__container container">
+        <div class="testimonial__header">
+          <h2 class="section__title">Apa Kata <span>Mereka</span></h2>
+          <p class="section__description">
+            Pendapat pelanggan tentang pengalaman mereka di Warung Mamen
+          </p>
+        </div>
+
+        <div class="testimonial__wrapper">
+          <div class="testimonial__card">
+            <div class="testimonial__rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+            <p class="testimonial__text">
+              "Nasi goreng spesialnya benar-benar enak! Rasanya autentik dan
+              porsinya banyak. Pelayanannya juga cepat dan ramah."
+            </p>
+            <div class="testimonial__author">
+              <img
+                src="https://randomuser.me/api/portraits/women/32.jpg"
+                alt="Budi Santoso"
+                class="testimonial__avatar"
+              />
+              <div class="testimonial__author-info">
+                <h4>Dewi Lestari</h4>
+                <span>Pelanggan Setia</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial__card">
+            <div class="testimonial__rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <p class="testimonial__text">
+              "Ayam bakarnya juicy dan bumbunya meresap. Sambalnya juga pedasnya
+              pas. Tempatnya bersih dan nyaman."
+            </p>
+            <div class="testimonial__author">
+              <img
+                src="https://randomuser.me/api/portraits/men/45.jpg"
+                alt="Anita Wijaya"
+                class="testimonial__avatar"
+              />
+              <div class="testimonial__author-info">
+                <h4>Budi Santoso</h4>
+                <span>Pelanggan Baru</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial__card">
+            <div class="testimonial__rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-line"></i>
+            </div>
+            <p class="testimonial__text">
+              "Tempat favorit saya untuk makan siang. Harganya terjangkau tapi
+              rasanya premium. Nasi campurnya komplit banget!"
+            </p>
+            <div class="testimonial__author">
+              <img
+                src="https://randomuser.me/api/portraits/women/68.jpg"
+                alt="Rina Hartati"
+                class="testimonial__avatar"
+              />
+              <div class="testimonial__author-info">
+                <h4>Rina Hartati</h4>
+                <span>Karyawan Kantoran</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial__navigation">
+          <button class="testimonial__nav-button active"></button>
+          <button class="testimonial__nav-button"></button>
+          <button class="testimonial__nav-button"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="kontak">
+      <div class="contact__container container">
+        <div class="contact__content">
+          <h2 class="section__title">Hubungi <span>Kami</span></h2>
+          <p class="contact__description">
+            Punya pertanyaan atau ingin memesan? Silakan hubungi kami melalui
+            form berikut atau langsung datang ke warung kami.
+          </p>
+
+          <div class="contact__info">
+            <div class="contact__info-item">
+              <i class="ri-map-pin-2-line"></i>
+              <div>
+                <h4>Alamat</h4>
+                <p>Jl. Raya Makan Enak No. 123, Kota Anda</p>
+              </div>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="ri-time-line"></i>
+              <div>
+                <h4>Jam Buka</h4>
+                <p>Senin-Minggu: 08.00 - 22.00 WIB</p>
+              </div>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="ri-phone-line"></i>
+              <div>
+                <h4>Telepon</h4>
+                <p>(021) 1234-5678</p>
+                <p>0812-3456-7890 (WhatsApp)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__social">
+            <a href="#" class="contact__social-link"
+              ><i class="ri-facebook-fill"></i
+            ></a>
+            <a href="#" class="contact__social-link"
+              ><i class="ri-instagram-line"></i
+            ></a>
+            <a href="#" class="contact__social-link"
+              ><i class="ri-whatsapp-line"></i
+            ></a>
+          </div>
+        </div>
+
+        <form class="contact__form">
+          <div class="contact__form-group">
+            <input
+              type="text"
+              placeholder="Nama Anda"
+              class="contact__form-input"
+              required
+            />
+          </div>
+          <div class="contact__form-group">
+            <input
+              type="email"
+              placeholder="Email Anda"
+              class="contact__form-input"
+              required
+            />
+          </div>
+          <div class="contact__form-group">
+            <input
+              type="tel"
+              placeholder="Nomor Telepon"
+              class="contact__form-input"
+            />
+          </div>
+          <div class="contact__form-group">
+            <textarea
+              placeholder="Pesan Anda"
+              class="contact__form-input contact__form-textarea"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="button contact__form-button">
+            Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <a href="/">Warung<span>Mamen</span>.</a>
+            <p>Lezat dan bergizi sejak 2008</p>
+          </div>
+
+          <div class="footer__links">
+            <div class="footer__link-group">
+              <h4>Tautan Cepat</h4>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__link-group">
+              <h4>Menu Populer</h4>
+              <ul>
+                <li><a href="#">Nasi Goreng Spesial</a></li>
+                <li><a href="#">Ayam Bakar</a></li>
+                <li><a href="#">Nasi Campur</a></li>
+                <li><a href="#">Es Teh Manis</a></li>
+                <li><a href="#">Tempe Goreng</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__link-group">
+              <h4>Kontak Kami</h4>
+              <ul>
+                <li>
+                  <i class="ri-map-pin-2-line"></i> Jl. Raya Makan Enak No. 123
+                </li>
+                <li><i class="ri-phone-line"></i> (021) 1234-5678</li>
+                <li><i class="ri-mail-line"></i> info@warungmamen.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>&copy; 2023 Warung Mamen. All Rights Reserved.</p>
+          <div class="footer__payment">
+            <i class="ri-bank-card-line"></i>
+            <i class="ri-paypal-line"></i>
+            <i class="ri-visa-line"></i>
+            <i class="ri-mastercard-line"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="assets/main.js"></script>
-</body>
+  </body>
 </html>
