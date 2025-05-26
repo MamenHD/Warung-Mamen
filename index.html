@@ -38,15 +38,14 @@
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="#home" class="nav__link active-link">Home</a></li>
-            <li><a href="#menu" class="nav__link">Menu</a></li>
+            <li><a href="/" class="nav__link active-link">Home</a></li>
+            <li><a href="/menu.html" class="nav__link">Menu</a></li>
             <li><a href="#about" class="nav__link">Tentang Kami</a></li>
             <li><a href="#testimoni" class="nav__link">Testimoni</a></li>
           </ul>
 
           <div class="nav__buttons">
-            <a href="#" class="nav__button-link">Daftar</a>
-            <a href="#" class="nav__button-link button">Masuk</a>
+            <a href="https://maps.app.goo.gl/Wjv4ehUwin9e1KVn6" class="nav__button-link button">OTW</a>
           </div>
 
           <div class="nav__close" id="nav-close">
@@ -71,8 +70,8 @@
           </p>
           <div class="hero__buttons">
             <a href="#menu" class="button">Lihat Menu</a>
-            <a href="#" class="button button--transparent btn_hero">
-              <i class="ri-play-circle-line"></i> Tonton Video
+            <a href="https://maps.app.goo.gl/Wjv4ehUwin9e1KVn6" class="button button--transparent btn_hero">
+              <i class="ri-map-pin-2-fill"></i> Menuju lokasi
             </a>
           </div>
         </div>
@@ -97,14 +96,11 @@
       </div>
 
       <div class="hero__social">
-        <a href="#" class="hero__social-link"
-          ><i class="ri-facebook-fill"></i
+        <a href="https://github.com/MamenHD" class="hero__social-link"
+          ><i class="ri-github-fill"></i
         ></a>
-        <a href="#" class="hero__social-link"
-          ><i class="ri-instagram-line"></i
-        ></a>
-        <a href="#" class="hero__social-link"
-          ><i class="ri-whatsapp-line"></i
+        <a href="https://www.linkedin.com/in/indra-nur-m-r-0390b22a7/" class="hero__social-link"
+          ><i class="ri-linkedin-box-fill"></i
         ></a>
       </div>
 
@@ -136,6 +132,7 @@
             Lauk
           </button>
           <button class="menu__category" data-category="sayur">Sayur</button>
+          <button class="menu__category" data-category="gorengan">Gorengan</button>
         </div>
 
         <div class="menu__grid">
@@ -143,7 +140,7 @@
           <article class="menu__item" data-category="nasi">
             <div class="menu__image">
               <img
-                src="assets/images/nt.jpg"
+                src="assets/images/menu/ayam.jpg"
                 alt="Nasi Ayam"
                 class="menu__img"
               />
@@ -163,11 +160,79 @@
             </div>
           </article>
 
+          <article class="menu__item" data-category="nasi">
+            <div class="menu__image">
+              <img
+                src="assets/images/menu/Nasi_dibentuk_bulat.jpg"
+                alt="Nasi Ayam"
+                class="menu__img"
+              />
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Nasi Aja</h3>
+                <span class="menu__price">Rp 4.000 - 5.000</span>
+              </div>
+              <p class="menu__description">
+                Nasi Aja
+              </p>
+            </div>
+          </article>
+
+          <article class="menu__item" data-category="gorengan">
+            <div class="menu__image">
+              <img
+                src="assets/images/menu/bakwan.jpg"
+                alt="Bakwan"
+                class="menu__img"
+              />
+              <div class="menu__badge">Terlaris</div>
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Bakwan</h3>
+                <span class="menu__price">Rp 1.000</span>
+              </div>
+              <p class="menu__description">
+                Bakwan
+              </p>
+            </div>
+          </article>
+
+          <article class="menu__item" data-category="gorengan">
+            <div class="menu__image">
+              <img
+                src="assets/images/menu/tempe.jpg"
+                alt="Tempe"
+                class="menu__img"
+              />
+              <div class="menu__badge">Terlaris</div>
+              <button class="menu__button">
+                <i class="ri-shopping-cart-2-line"></i>
+              </button>
+            </div>
+            <div class="menu__content">
+              <div class="menu__info">
+                <h3 class="menu__name">Bakwan Tempe</h3>
+                <span class="menu__price">Rp 1.000</span>
+              </div>
+              <p class="menu__description">
+                Tempe dengan adonan bakwan
+              </p>
+            </div>
+          </article>
+
           <!-- Item 2 -->
           <article class="menu__item" data-category="lauk">
             <div class="menu__image">
               <img
-                src="assets/images/nt.jpg"
+                src="assets/images/menu/ag.jpg"
                 alt="Ayam Geprek"
                 class="menu__img"
               />
@@ -190,7 +255,7 @@
           <article class="menu__item" data-category="lauk">
             <div class="menu__image">
               <img
-                src="assets/images/nt.jpg"
+                src="assets/images/menu/ayamb.jpg"
                 alt="Ayam Balado"
                 class="menu__img"
               />
@@ -214,7 +279,7 @@
           <article class="menu__item" data-category="lauk">
             <div class="menu__image">
               <img
-                src="assets/images/nt.jpg"
+                src="assets/images/menu/telor.jpg"
                 alt="Telor"
                 class="menu__img"
               />
@@ -234,105 +299,10 @@
           </article>
 
           <!-- Item 5 -->
-          <article class="menu__item" data-category="lauk">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Ati"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Ati Ampela Kecap</h3>
-                <span class="menu__price">Rp 5.000</span>
-              </div>
-              <p class="menu__description">
-                Ati Ampela dengan bumbu kecap
-              </p>
-            </div>
-          </article>
-
-          <!-- Item 6 -->
-          <article class="menu__item" data-category="lauk">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Tempe"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Tempe Orek</h3>
-                <span class="menu__price">Rp 3.000 - 5.000</span>
-              </div>
-              <p class="menu__description">
-                Tempe Orek (Bebas Pilih Kecap atau Balado)
-              </p>
-            </div>
-          </article>
-       
-
-        <!-- Item 7 -->
-          <article class="menu__item" data-category="lauk">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Usus"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Usus</h3>
-                <span class="menu__price">Rp 5.000</span>
-              </div>
-              <p class="menu__description">
-                Usus dengan bumbu kuah balado
-              </p>
-            </div>
-          </article>
-    
-
-        <!-- Item 8 -->
-          <article class="menu__item" data-category="lauk">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Kikil"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Kikil</h3>
-                <span class="menu__price">Rp 5.000</span>
-              </div>
-              <p class="menu__description">
-                Kikil dengan kuah balado
-              </p>
-            </div>
-          </article>
-    
-
-        <!-- Item 8 -->
           <article class="menu__item" data-category="sayur">
             <div class="menu__image">
               <img
-                src="assets/images/nt.jpg"
+                src="assets/images/menu/jengkol.png"
                 alt="Jengkol"
                 class="menu__img"
               />
@@ -349,84 +319,11 @@
                 Jengkool dengan bumbu balado
             </div>
           </article>
-       
 
-        <!-- Item 9 -->
-          <article class="menu__item" data-category="lauk">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Tahu"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Tahu Balado</h3>
-                <span class="menu__price">Rp 3.000 - 5.000</span>
-              </div>
-              <p class="menu__description">
-                Tahu dengan kuah balado
-              </p>
-            </div>
-          </article>
-      
-
-        <!-- Item 10 -->
-          <article class="menu__item" data-category="lauk">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Tongkol"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Ikan Tongkol</h3>
-                <span class="menu__price">Rp 5.000</span>
-              </div>
-              <p class="menu__description">
-                Tongkol dengan bumbu balado
-              </p>
-            </div>
-          </article>
-       
-        <!-- Item 11 -->
-          <article class="menu__item" data-category="lauk">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Kentang"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Kentang Balado</h3>
-                <span class="menu__price">Rp 5.000</span>
-              </div>
-              <p class="menu__description">
-                TKentang dengan bumbu balado
-              </p>
-            </div>
-          </article>
-      
-
-        <!-- Item 12 -->
           <article class="menu__item" data-category="sayur">
             <div class="menu__image">
               <img
-                src="assets/images/nt.jpg"
+                src="assets/images/menu/HappyFresh-Capcay-Goreng-Recipe-1-940x700.jpg"
                 alt="Cap cay"
                 class="menu__img"
               />
@@ -444,201 +341,10 @@
               </p>
             </div>
           </article>
-      
-
-        <!-- Item 13 -->
-          <article class="menu__item" data-category="sayur">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Pare"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Pare</h3>
-                <span class="menu__price">Rp 3.000</span>
-              </div>
-              <p class="menu__description">
-                Pare tumis
-              </p>
-            </div>
-          </article>
-        
-
-        <!-- Item 14 -->
-          <article class="menu__item" data-category="sayur">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Jamur"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Jamur</h3>
-                <span class="menu__price">Rp 3.000</span>
-              </div>
-              <p class="menu__description">
-                Jamur tumis
-              </p>
-            </div>
-          </article>
-        
-
-        <!-- Item 15 -->
-          <article class="menu__item" data-category="sayur">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Sawi"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Sawi</h3>
-                <span class="menu__price">Rp 3.000</span>
-              </div>
-              <p class="menu__description">
-                Sawi tumis
-              </p>
-            </div>
-          </article>
-      
-
-        <!-- Item 16 -->
-          <article class="menu__item" data-category="sayur">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Toge"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Touge Tahu</h3>
-                <span class="menu__price">Rp 3.000</span>
-              </div>
-              <p class="menu__description">
-                Toge tumis dengan tambahan tahu
-              </p>
-            </div>
-          </article>
-      
-
-        <!-- Item 17 -->
-          <article class="menu__item" data-category="sayur">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Kangkung"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Kangkung</h3>
-                <span class="menu__price">Rp 3.000</span>
-              </div>
-              <p class="menu__description">
-                Kangkung tumis
-              </p>
-            </div>
-          </article>
-      
-
-        <!-- Item 18 -->
-          <article class="menu__item" data-category="sayur">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Labu"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Labu</h3>
-                <span class="menu__price">Rp 3.000</span>
-              </div>
-              <p class="menu__description">
-                Labu tumis
-              </p>
-            </div>
-          </article>
-        
-        <!-- Item 19 -->
-          <article class="menu__item" data-category="sayur">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Kacang"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Kacang Tumis</h3>
-                <span class="menu__price">Rp 3.000</span>
-              </div>
-              <p class="menu__description">
-                Kacang tumis
-              </p>
-            </div>
-          </article>
-      
-
-        <!-- Item 20 -->
-          <article class="menu__item" data-category="sayur">
-            <div class="menu__image">
-              <img
-                src="assets/images/nt.jpg"
-                alt="Terong"
-                class="menu__img"
-              />
-              <button class="menu__button">
-                <i class="ri-shopping-cart-2-line"></i>
-              </button>
-            </div>
-            <div class="menu__content">
-              <div class="menu__info">
-                <h3 class="menu__name">Terong</h3>
-                <span class="menu__price">Rp 3.000</span>
-              </div>
-              <p class="menu__description">
-                Terong Balado
-              </p>
-            </div>
-          </article>
         </div>
 
         <div class="menu__more">
-          <a href="#" class="button button--transparent">Lihat Semua Menu</a>
+          <a href="/menu.html" class="button button--transparent">Lihat Semua Menu</a>
         </div>
       </div>
     </section>
@@ -648,12 +354,12 @@
       <div class="about__container container">
         <div class="about__image">
           <img
-            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            src="assets/images/content.jpg"
             alt="Warung Mamen"
             class="about__img"
           />
           <div class="about__experience">
-            <span class="about__experience-number">15+</span>
+            <span class="about__experience-number">3+</span>
             <span class="about__experience-text">Tahun<br />Pengalaman</span>
           </div>
         </div>
@@ -661,9 +367,9 @@
         <div class="about__content">
           <h2 class="section__title">Cerita <span>Kami</span></h2>
           <p class="about__description">
-            Warung Mamen didirikan pada tahun 2008 dengan misi menyajikan
+            Warung Mamen didirikan pada tahun 2022 dengan misi menyajikan
             makanan lezat dengan harga terjangkau. Kami menggunakan bahan-bahan
-            segar setiap hari dan resep turun temurun yang telah disempurnakan.
+            segar setiap hari dan memastikan harga merakyat.
           </p>
 
           <div class="about__details">
@@ -673,11 +379,11 @@
             </div>
             <div class="about__detail">
               <i class="ri-checkbox-circle-line"></i>
-              <p>Resep turun temurun</p>
+              <p>Menu lengkap</p>
             </div>
             <div class="about__detail">
               <i class="ri-checkbox-circle-line"></i>
-              <p>Harga terjangkau</p>
+              <p>Harga merakyat</p>
             </div>
             <div class="about__detail">
               <i class="ri-checkbox-circle-line"></i>
@@ -687,16 +393,16 @@
 
           <div class="about__stats">
             <div class="about__stat">
-              <span class="about__stat-number">500+</span>
+              <span class="about__stat-number">100+</span>
               <span class="about__stat-text">Pelanggan<br />Per Hari</span>
             </div>
             <div class="about__stat">
-              <span class="about__stat-number">50+</span>
+              <span class="about__stat-number">20+</span>
               <span class="about__stat-text">Menu<br />Variasi</span>
             </div>
             <div class="about__stat">
-              <span class="about__stat-number">15+</span>
-              <span class="about__stat-text">Penghargaan<br />Kuliner</span>
+              <span class="about__stat-number">1000+</span>
+              <span class="about__stat-text">Orang<br />Sudah menikmati</span>
             </div>
           </div>
         </div>
@@ -723,8 +429,8 @@
               <i class="ri-star-fill"></i>
             </div>
             <p class="testimonial__text">
-              "Nasi goreng spesialnya benar-benar enak! Rasanya autentik dan
-              porsinya banyak. Pelayanannya juga cepat dan ramah."
+              "Nasi Geprek benar-benar enak! Rasanya autentik dan
+              Sambal gorengnya joss. Pelayanannya juga cepat dan ramah."
             </p>
             <div class="testimonial__author">
               <img
@@ -745,11 +451,11 @@
               <i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
-              <i class="ri-star-half-line"></i>
+              <i class="ri-star-fill"></i>
             </div>
             <p class="testimonial__text">
-              "Ayam bakarnya juicy dan bumbunya meresap. Sambalnya juga pedasnya
-              pas. Tempatnya bersih dan nyaman."
+              "Ayam baladonya juicy dan bumbunya meresap. Sambalnya juga pedasnya
+              pas."
             </p>
             <div class="testimonial__author">
               <img
@@ -770,10 +476,10 @@
               <i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
-              <i class="ri-star-line"></i>
+              <i class="ri-star-fill"></i>
             </div>
             <p class="testimonial__text">
-              "Tempat favorit saya untuk makan siang. Harganya terjangkau tapi
+              "Tempat favorit saya untuk makan malam habis pulang kerja. Harganya terjangkau tapi
               rasanya premium. Nasi campurnya komplit banget!"
             </p>
             <div class="testimonial__author">
@@ -813,7 +519,7 @@
               <i class="ri-map-pin-2-line"></i>
               <div>
                 <h4>Alamat</h4>
-                <p>Jl. Raya Makan Enak No. 123, Kota Anda</p>
+                <p>Jl. Ampera Besar (Samsat), Kota Jakarta Utara</p>
               </div>
             </div>
 
@@ -821,34 +527,22 @@
               <i class="ri-time-line"></i>
               <div>
                 <h4>Jam Buka</h4>
-                <p>Senin-Minggu: 08.00 - 22.00 WIB</p>
+                <p>Minggu-Jumat: 17.00 - 00.00 WIB</p>
               </div>
             </div>
-
-            <div class="contact__info-item">
-              <i class="ri-phone-line"></i>
-              <div>
-                <h4>Telepon</h4>
-                <p>(021) 1234-5678</p>
-                <p>0812-3456-7890 (WhatsApp)</p>
-              </div>
-            </div>
-          </div>
 
           <div class="contact__social">
-            <a href="#" class="contact__social-link"
-              ><i class="ri-facebook-fill"></i
+            <a href="https://github.com/MamenHD" class="contact__social-link"
+              ><i class="ri-github-fill"></i
             ></a>
-            <a href="#" class="contact__social-link"
-              ><i class="ri-instagram-line"></i
-            ></a>
-            <a href="#" class="contact__social-link"
-              ><i class="ri-whatsapp-line"></i
+            <a href="https://www.linkedin.com/in/indra-nur-m-r-0390b22a7/" class="contact__social-link"
+              ><i class="ri-linkedin-box-fill"></i
             ></a>
           </div>
         </div>
 
-        <form class="contact__form">
+        <!-- Form Kontak -->
+        <!-- <form class="contact__form"> 
           <div class="contact__form-group">
             <input
               type="text"
@@ -882,7 +576,7 @@
           <button type="submit" class="button contact__form-button">
             Kirim Pesan
           </button>
-        </form>
+        </form>-->
       </div>
     </section>
 
@@ -922,9 +616,8 @@
               <h4>Kontak Kami</h4>
               <ul>
                 <li>
-                  <i class="ri-map-pin-2-line"></i> Jl. Raya Makan Enak No. 123
+                  <i class="ri-map-pin-2-line"></i> Jl. Ampera Besar (Samsat), Kota Jakarta Utara
                 </li>
-                <li><i class="ri-phone-line"></i> (021) 1234-5678</li>
                 <li><i class="ri-mail-line"></i> mamenhd27@gmail.com</li>
               </ul>
             </div>
@@ -935,9 +628,7 @@
           <p>&copy; 2025 Warung Mamen. All Rights Reserved.</p>
           <div class="footer__payment">
             <i class="ri-bank-card-line"></i>
-            <i class="ri-paypal-line"></i>
-            <i class="ri-visa-line"></i>
-            <i class="ri-mastercard-line"></i>
+            <i class="ri-wallet-line"></i>
           </div>
         </div>
       </div>
