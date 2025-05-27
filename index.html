@@ -67,7 +67,7 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
       <div class="hero__container container">
-        <div class="hero__content">
+        <div class="hero__content" data-animate="fade-up">
           <h1 class="hero__title">Nasi Lezat <span>Bergizi Tinggi</span></h1>
           <p class="hero__description">
             Nikmati hidangan tradisional dengan cita rasa autentik yang dibuat
@@ -84,7 +84,7 @@
           </div>
         </div>
 
-        <div class="hero__image">
+        <div class="hero__image" data-animate="fade-left" data-delay="0.3">
           <img
             src="assets/images/bgwn.jpg"
             alt="Nasi Mamen"
@@ -103,7 +103,7 @@
         </div>
       </div>
 
-      <div class="hero__social">
+      <div class="hero__social" data-animate="fade-left" data-delay="0.5">
         <a href="https://github.com/MamenHD" class="hero__social-link"
           ><i class="ri-github-fill"></i
         ></a>
@@ -125,7 +125,7 @@
     <!-- Menu Section -->
     <section class="menu section" id="menu">
       <div class="menu__container container">
-        <div class="menu__header">
+        <div class="menu__header" data-animate="fade-up">
           <h2 class="section__title">Menu <span>Kami</span></h2>
           <p class="section__description">
             Nikmati berbagai pilihan menu lezat dengan bahan-bahan segar setiap
@@ -133,7 +133,7 @@
           </p>
         </div>
 
-        <div class="menu__categories">
+        <div class="menu__categories" data-animate="fade-up" data-delay="0.2">
           <button class="menu__category active" data-category="all">
             Semua
           </button>
@@ -147,7 +147,7 @@
 
         <div class="menu__grid">
           <!-- Item 1 -->
-          <article class="menu__item" data-category="nasi">
+          <article class="menu__item" data-category="nasi" data-animate="fade-up" data-delay="0.3">
             <div class="menu__image">
               <img
                 src="assets/images/menu/ayam.jpg"
@@ -170,7 +170,7 @@
             </div>
           </article>
 
-          <article class="menu__item" data-category="nasi">
+          <article class="menu__item" data-category="nasi" data-animate="fade-up" data-delay="0.4">
             <div class="menu__image">
               <img
                 src="assets/images/menu/Nasi_dibentuk_bulat.jpg"
@@ -190,7 +190,7 @@
             </div>
           </article>
 
-          <article class="menu__item" data-category="gorengan">
+          <article class="menu__item" data-category="gorengan" data-animate="fade-up" data-delay="0.5">
             <div class="menu__image">
               <img
                 src="assets/images/menu/bakwan.jpg"
@@ -211,7 +211,7 @@
             </div>
           </article>
 
-          <article class="menu__item" data-category="gorengan">
+          <article class="menu__item" data-category="gorengan" data-animate="fade-up" data-delay="0.5">
             <div class="menu__image">
               <img
                 src="assets/images/menu/tempe.jpg"
@@ -233,7 +233,7 @@
           </article>
 
           <!-- Item 2 -->
-          <article class="menu__item" data-category="lauk">
+          <article class="menu__item" data-category="lauk" data-animate="fade-up" data-delay="0.4">
             <div class="menu__image">
               <img
                 src="assets/images/menu/ag.jpg"
@@ -256,7 +256,7 @@
           </article>
 
           <!-- Item 3 -->
-          <article class="menu__item" data-category="lauk">
+          <article class="menu__item" data-category="lauk" data-animate="fade-up" data-delay="0.3">
             <div class="menu__image">
               <img
                 src="assets/images/menu/ayamb.jpg"
@@ -280,7 +280,7 @@
           </article>
 
           <!-- Item 4 -->
-          <article class="menu__item" data-category="lauk">
+          <article class="menu__item" data-category="lauk" data-animate="fade-up" data-delay="0.3">
             <div class="menu__image">
               <img
                 src="assets/images/menu/telor.jpg"
@@ -303,7 +303,7 @@
           </article>
 
           <!-- Item 5 -->
-          <article class="menu__item" data-category="sayur">
+          <article class="menu__item" data-category="sayur" data-animate="fade-up" data-delay="0.4">
             <div class="menu__image">
               <img
                 src="assets/images/menu/jengkol.png"
@@ -323,7 +323,7 @@
             </div>
           </article>
 
-          <article class="menu__item" data-category="sayur">
+          <article class="menu__item" data-category="sayur" data-animate="fade-up" data-delay="0.5">
             <div class="menu__image">
               <img
                 src="assets/images/menu/HappyFresh-Capcay-Goreng-Recipe-1-940x700.jpg"
@@ -344,7 +344,7 @@
           </article>
         </div>
 
-        <div class="menu__more">
+        <div class="menu__more" data-animate="fade-up" data-delay="0.2">
           <a href="/menu.html" class="button button--transparent"
             >Lihat Semua Menu</a
           >
@@ -355,7 +355,7 @@
     <!-- About Section -->
     <section class="about section" id="about">
       <div class="about__container container">
-        <div class="about__image">
+        <div class="about__image" data-animate="fade-right">
           <img
             src="assets/images/content.jpg"
             alt="Warung Mamen"
@@ -368,6 +368,7 @@
         </div>
 
         <div class="about__content">
+          <div data-animate="fade-left" data-delay="0.3">
           <h2 class="section__title">Cerita <span>Kami</span></h2>
           <p class="about__description">
             Warung Mamen didirikan pada tahun 2022 dengan misi menyajikan
@@ -393,8 +394,9 @@
               <p>Pelayanan ramah</p>
             </div>
           </div>
+          </div>
 
-          <div class="about__stats">
+          <div class="about__stats" data-animate="fade-up" data-delay="0.4">
             <div class="about__stat">
               <span class="about__stat-number">100+</span>
               <span class="about__stat-text">Pelanggan<br />Per Hari</span>
@@ -413,7 +415,7 @@
     </section>
 
     <!-- Testimonial Section -->
-    <section class="testimonial section" id="testimoni">
+    <section class="testimonial section" id="testimoni" data-animate="fade-up" data-delay="0.2">
       <div class="testimonial__container container">
         <div class="testimonial__header">
           <h2 class="section__title">Apa Kata <span>Mereka</span></h2>
@@ -512,6 +514,7 @@
     <section class="contact section" id="kontak">
       <div class="contact__container container grid">
         <div class="contact__content">
+          <div data-animate="fade-left" data-delay="0.2">
           <h2 class="section__title">Hubungi <span>Kami</span></h2>
           <p class="contact__description">
             Punya pertanyaan atau ingin memesan? Silakan hubungi kami melalui
@@ -543,7 +546,9 @@
               </div>
             </div>
           </div>
+          </div>
 
+          <div data-animate="fade-up" data-delay="0.3">
           <div class="contact__social">
             <a
               href="https://github.com/MamenHD"
@@ -568,9 +573,10 @@
             </a>
           </div>
         </div>
+        </div>
 
         <!-- Contact Form -->
-        <form class="contact__form">
+        <form class="contact__form" data-animate="fade-right" data-delay="0.4">
           <div class="contact__form-group">
             <input
               type="text"

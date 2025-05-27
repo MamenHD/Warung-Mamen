@@ -160,3 +160,31 @@ if (contactForm) {
   });
 }
 
+
+// Scroll Animation
+function animateOnScroll() {
+  const elements = document.querySelectorAll('[data-animate]');
+  
+  elements.forEach(element => {
+    const elementPosition = element.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    
+    if (elementPosition < windowHeight - 100) {
+      // Get delay from data-delay attribute or default to 0
+      const delay = element.getAttribute('data-delay') || 0;
+      
+      // Apply the delay
+      setTimeout(() => {
+        element.classList.add('animate');
+      }, delay * 1000);
+    }
+  });
+}
+
+// Initialize animations on load
+window.addEventListener('load', () => {
+  animateOnScroll();
+  
+  // Add event listener for scroll
+  window.addEventListener('scroll', animateOnScroll);
+});
